@@ -1,0 +1,147 @@
+*{margin:0;padding:0}
+.container-full{
+    width:100%;
+    height:auto;
+}
+.container{
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+a{text-decoration:none;}
+img{width:100%}
+/*defult*/
+
+/**start top part**/
+.food-top-sec{
+    background-image: url(img/background-food.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont-head-food{
+    padding:100px 0px;
+}
+.halp-width-top{
+    width:50%;
+    height:auto;
+    float: left;
+}
+.head-text-food{
+    padding:60px 0px;
+}
+.halp-width-top h1{
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 53px;
+    text-transform: capitalize;
+    color: black;
+}
+.halp-width-top h1 span{
+    color:#ED2D02;
+}
+.halp-width-top p{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black
+}
+.halp-width-top .btn-order-food{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-image:linear-gradient( #FC8F49, #FC5632);
+    margin-top: 33px;
+    display: inline-block;
+    padding: 20px 34px;
+    border-radius: 36px;
+}
+.halp-width-top img{}
+/**end top part**/
+
+/**start about section**/
+.about-full-bg{
+    background-image: url(img/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-heading{
+    padding: 40px 0px;
+    text-align: center;
+}
+.about-heading h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.about-heading h1::after{
+    content: "";
+    width: 91px;
+    height: 3px;
+    background: red;
+    display: block;
+    margin: 0 auto;
+}
+.about-text-area{
+    padding: 82px 0px;
+}
+.about-btn{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-image: linear-gradient( #B08989, #EAB108);
+    margin-top: 33px;
+    display: inline-block;
+    padding: 20px 34px;
+    border-radius: 36px;
+}
+/**end about section**/
+
+/**start recipies section**/
+.cont-recipies{
+    padding: 40px 0px;
+    text-align: center;
+}
+.recipies-top-part h1{
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+.recipies-top-part h1::after{
+    content: "";
+    width: 91px;
+    height: 3px;
+    background: red;
+    display: block;
+    margin: 0 auto;
+}
+.recipies-top-part p{
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 3em;
+}
+
+.recipies-bottom-part{
+
+}
+.recipies-bottom-part .recipies-item{
+    width: 26%;
+    float: left;
+    padding: 18px;
+    box-shadow: 1px 2px 18px #999292;
+    margin: 17px;
+    border-radius: 32px;
+}
+.recipies-bottom-part .recipies-item h2{
+    font-size : 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 3em;
+}
+.recipies-bottom-part .recipies-item p{
+    font-size:14px;
+    font-family:fantasy
+
+}
+
+/**end recipies section**/
