@@ -15,7 +15,7 @@ img{width:100%}
 
 /**start top part**/
 .food-top-sec{
-    background-image: url(img/images\ \(3\).jpg);
+    background-image: url(img/photo.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -147,7 +147,7 @@ img{width:100%}
 
 /**start follow section**/
 .follower-full-bg{
-    padding: 30px 0px;
+    padding: 56px 0px;
 }
 .follow-sec-container{
     box-shadow: 1px 3px 30px #ddd;
@@ -218,8 +218,66 @@ img{width:100%}
     padding: 0px 113px;
 }
 
+/**end offer section**/
 
-/**start footer section**/
+/**start contact section**/
+
+.form-container{
+    overflow: hidden;
+    padding:60px 0px;
+}
+.contact-heading{
+ text-align: center;
+}
+.contact-heading h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 52px;
+    text-transform: capitalize;
+    padding: 34px 0px;
+}
+.contact-heading h1::after{
+    content: "";
+    width: 91px;
+    height: 3px;
+    background: red;
+    display: block;
+    margin: 0 auto;
+}
+.form-container .contact{
+    overflow: hidden;
+    padding:20px 0px;
+    text-align: center;
+}
+.form-container .contact label{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-container .contact input{
+    border-width: 0px;
+    border-bottom-width: 0px;
+    outline: none;
+    border-bottom: 2px solid #ddd;
+    width: 40%;
+    padding: 18px 2px;
+    font-size: 20px;
+}
+.form-container .contact .sbumit{
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+     padding: 10px;
+     background-image: linear-gradient( #593e0b , #802400);
+     display: inline-block;
+     margin: 20px 0px;
+     width: 173px;
+     border-radius: 10px;
+     color:#fff;
+}
+
+/**end contact section**/
+
+/** footer section**/
 .footer-full-bg{
     background: black;
     color:#fff;
